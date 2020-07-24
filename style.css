@@ -11,6 +11,10 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 a:hover {
@@ -362,7 +366,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media  screen and (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -822,10 +826,10 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
-@media (max-width: 1024px) {
+@media screen and  (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -839,7 +843,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media  screen and  (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -848,19 +852,19 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media (max-width: 991px) {
+@media  screen and (max-width: 991px) {
     .container {
         width: 100%;
     }
@@ -889,7 +893,7 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media screen and  (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -999,7 +1003,7 @@ h4 {
         padding: 0 10px;
     }
     .btn-dwn {
-        display: none;
+        display: hidden;
     }
     .voffset {
         margin-top: 5px;
@@ -1028,14 +1032,14 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media screen and  (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media  screen and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
