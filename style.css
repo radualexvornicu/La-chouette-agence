@@ -877,8 +877,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -888,8 +888,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1003,7 +1001,7 @@ h4 {
         padding: 0 10px;
     }
     .btn-dwn {
-        display: hidden;
+        display: none;
     }
     .voffset {
         margin-top: 5px;
