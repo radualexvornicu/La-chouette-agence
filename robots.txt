@@ -2,4 +2,5 @@ User-agent: *
 Disallow: 
 Disallow: /fonts/
 Disallow: /js/
+Disallow: /includes/
 Sitemap: https://radualexvornicu.github.io/La-chouette-agence/sitemap.xml
