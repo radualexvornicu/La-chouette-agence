@@ -240,7 +240,7 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<footer class="bloc bgc-white l-bloc" id="bloc-7">
+<div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
@@ -250,6 +250,8 @@
 							Nom:							
 						</label>
 						<input id="name" name="nom" class="form-control" required />
+						<div class="help-block"></div>
+
 					</div>
 					<div class="form-group">
 						<label for="Adresse email">
@@ -263,30 +265,39 @@
 							Comment nous avez-vous connu ?							
 						</label>
 						<input id="input_504" name="Comment nous avez-vous connu ?" class="form-control" type="email" required  />
+						<div class="help-block"></div>
+
 					</div>
 					<div class="form-group">
 						<label for="Brief de votre projet">
 							Brief de votre projet:
 						</label>
 						<textarea id="message" name="Brief de votre projet" class="form-control" rows="4" cols="50" required>Votre message ici</textarea>
-						<p>Pour soumettre le formulaire, appuyez sur le long bouton rond étiqueté <em>ENVOYER</em></p>
-
+						<div class="help-block"></div>	
+						<p>Pour soumettre le formulaire, appuyez sur le long bouton rond étiqueté <em>SUBMIT</em></p>
+						
 					</div> 
-					<button aria-label="Appuyez pour Envoyer" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<input aria-label="Appuyez pour SUBMIT" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						
+				</input>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
+				
+					<div>
+						<p><a class="btn-atomic-tangerine" href="mailto:contact@lachouetteagence.com" id="contact_email">contact@lachouetteagence.com</a></p>
+						<address>
+						<p>2 place Sathonay</p>
+						<p>69001 Lyon</p></address>
+						<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</footer>
+</div>
 <!-- Footer - bloc-8 -->
-<section class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -319,7 +330,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</footer>
 <!-- Footer - bloc-8 END -->
 </main>
 <!-- Principal conteneur END -->
